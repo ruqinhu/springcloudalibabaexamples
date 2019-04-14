@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.cloud.alibaba.fescar",
+      "type": "org.springframework.cloud.alibaba.fescar.FescarProperties",
+      "sourceType": "org.springframework.cloud.alibaba.fescar.FescarProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.cloud.alibaba.fescar.tx-service-group",
+      "type": "java.lang.String",
+      "description": "Fescar tx service group.default is ${spring.application.name}-fescar-service-group.",
+      "sourceType": "org.springframework.cloud.alibaba.fescar.FescarProperties"
+    }
+  ],
+  "hints": []
+}
